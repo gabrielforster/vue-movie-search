@@ -1,14 +1,14 @@
 <template>
-  <HeaderNav />
+  <MovieFinder />
 </template>
 
 <script>
-import HeaderNav from "./components/Header.vue";
+import MovieFinder from "./components/MovieFinder.vue";
 
 export default {
   name: "App",
   components: {
-    HeaderNav,
+    MovieFinder,
   },
 };
 </script>
