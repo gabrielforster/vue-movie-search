@@ -7,5 +7,6 @@ module.exports = defineConfig({
       title: "Movie Search",
     },
   },
-  publicPath: process.env.NODE_ENV === "production" ? "/REPO_NAME/" : "/",
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/vue-movie-search/" : "/",
 });
